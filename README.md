@@ -5,7 +5,7 @@ Re-load is a react component for handling (psuedo-)async loading states.
 ## Example
 
 ```jsx
-import Reload from 're-load'
+import Reload from '@matthamlin/re-load'
 
 let src = 'https://my-cool-img-resource.com/img.jpg'
 

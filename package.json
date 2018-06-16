@@ -1,5 +1,5 @@
 {
-  "name": "re-load",
+  "name": "@matthamlin/re-load",
   "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
