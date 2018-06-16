@@ -1,0 +1,18 @@
+{
+  "name": "re-load",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "author": "Matthew Hamlin <hamlim@outlook.com> (https://matthamlin.me/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "7.0.0-beta.51",
+    "@babel/core": "7.0.0-beta.51",
+    "@babel/plugin-proposal-class-properties": "7.0.0-beta.51",
+    "@babel/preset-env": "7.0.0-beta.51"
+  },
+  "scripts": {
+    "build": "babel src/ --out-dir dist/",
+    "postbuild": "cp src/index.js dist/index.mjs"
+  }
+}
